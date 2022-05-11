@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'theme.css';
+@import 'toastui.css';
+@import 'toastui.css';
+
+.clipped {
+    mask-image: linear-gradient(to bottom, #f3f4f6 90%, transparent 100%);
+}

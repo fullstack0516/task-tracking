@@ -1,0 +1,7 @@
+.sortable-chosen {
+    @apply bg-gray-50 !important;
+}
+
+.sortable-chosen.sortable-ghost * {
+    @apply invisible !important;
+}

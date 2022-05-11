@@ -1,0 +1,64 @@
+.toastui-editor-tooltip {
+    @apply hidden !important;
+}
+
+.toastui-editor-defaultUI {
+    @apply border-gray-300 rounded-md shadow-sm !important;
+}
+
+.toastui-editor-defaultUI .ProseMirror {
+    @apply p-5 !important;
+}
+
+.toastui-editor-toolbar-divider {
+    @apply bg-gray-300 !important;
+}
+
+.toastui-editor-defaultUI-toolbar {
+    @apply bg-gray-100 rounded-t-md border-b-gray-300 px-1 !important;
+}
+
+.toastui-editor-defaultUI-toolbar button {
+    @apply border-transparent rounded-md !important;
+}
+
+.toastui-editor-defaultUI-toolbar button:not(:disabled):hover {
+    @apply bg-white !important;
+}
+
+.toastui-editor-ww-container {
+    @apply rounded-md !important;
+}
+
+.toastui-editor-contents {
+    @apply text-sm font-sans !important;
+}
+
+.toastui-editor-contents h1,
+.toastui-editor-contents h2,
+.toastui-editor-contents h3,
+.toastui-editor-contents h4,
+.toastui-editor-contents h5,
+.toastui-editor-contents h6 {
+    @apply mb-4 text-xl font-semibold border-none !important;
+}
+
+.toastui-editor-contents p {
+    @apply mb-2 last:mb-0 !important;
+}
+
+.toastui-editor-contents ul {
+    @apply list-disc list-inside !important;
+}
+
+.toastui-editor-contents ul li {
+    @apply flex flex-col !important;
+}
+
+.toastui-editor-contents ul li p {
+    @apply mb-0 !important;
+}
+
+.toastui-editor-contents a {
+    @apply font-medium text-indigo-600 hover:text-indigo-500 transition no-underline !important;
+}
